@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+	.footer {
+		flex-direction: column;
+	}
+
+	.play-btn {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	.all-page {
+		max-width: 768px;
+		overflow-x: hidden; 
+	}
+	
+/* =============VIDEO================== */
+
+.video {
+	height: 628px;
+	padding: 0;
+}
+
+.video-item  {
+	height: 418px;
+	margin-top: 5px;
+	background-position: -5px 0px;
+    background-size: auto 418px;
+}
+
+
+/* =========FOOTER============================= */
+
+.footer {
+	min-height: 190px;
+	justify-content: space-around;
+	align-items: center;	
+	padding-bottom: 70px;
+}
+
+
+}

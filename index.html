@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>custom video</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style768.css">
+	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="all-page">
+	<main class="main">
+		<section class="video change-ligth" id="video">
+			<div class="container">
+				<div class="title-container">
+						<hr class="title-line change-ligth">
+						<h2 class="section-title ligth-text" data-i18n='video'>Video</h2>
+						<hr class="title-line change-ligth">
+				</div>
+				<div class="video-item">
+					<div class="front-image"></div>
+					<video class="player-video viewer" src="./assets/video/video.mp4"></video>
+					<div class="play-btn"></div>
+					<div class="player-controls">
+						<div class="play-icon play"></div>
+						<div class="time">
+							<span class="current">0:00</span>/ <span class="duration">0:00</span>
+						</div>
+						
+						<input 
+							type="range" 
+							name="progress" 
+							class="progress player-slider" 
+							min="0" 
+							max="100" 
+							step="1" 
+							value="0">
+						<div class="play-icon volume-icon"></div>
+						<input 
+							type="range" 
+							name="volume" 
+							class="volume player-slider" 
+							min="0"
+							max="1" 
+							step="0.01" 
+							value="0.5">
+						<div class="play-icon fullscreen"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer container">
+				<p class="github">
+				<span class="github-text text-dog">©</span>
+				<span class="github-text text-year">2022</span>
+				<span class="github-text text-name">
+						<a href = "https://github.com/valsotnik">valsotnik</a>
+				</span>
+				</p>
+				<p class="rsschool">
+
+				<a href = "https://rs.school/">Rolling Scopes School</a>
+				</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+
+</html>
